@@ -1,0 +1,9 @@
+{
+  // "files" property removed as it was empty
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
