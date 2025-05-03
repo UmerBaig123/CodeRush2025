@@ -1,3 +1,31 @@
-python-multipart
-fastapi
-sqlalchemy
+# Generated requirements.txt based on imports in app/
+
+# FastAPI core
+fastapi>=0.104.0
+uvicorn>=0.23.2
+pydantic>=2.4.2
+
+# Database requirements
+sqlalchemy>=2.0.22
+alembic>=1.12.0
+
+# Authentication and security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+
+# CORS handling
+starlette>=0.27.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# DateTime handling
+datetime>=5.2
+
+# Optional dependencies
+httpx>=0.25.0      # For API clients and testing
+pytest>=7.4.2      # For testing
+
+pydantic[email]>=2.4.2  # For email validation
+yagmail>=0.15.0    # For sending emails
